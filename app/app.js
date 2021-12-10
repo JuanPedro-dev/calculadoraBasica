@@ -1,4 +1,3 @@
-const inputCalc = document.getElementById("display__current")
 let calculate = "";
 
 const press = (num)=>{
@@ -16,6 +15,7 @@ const eraseAll = ()=>{
     document.getElementById("display__log").innerHTML = "Calcular";
     document.getElementById("display__current").innerHTML = 0;
 }
+
 const erase = ()=>{
     calculate = calculate.slice(0,-1);
     document.getElementById("display__log").innerHTML = `${calculate} = `;
