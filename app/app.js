@@ -9,6 +9,7 @@ const equal = ()=>{
     document.getElementById("display__log").innerHTML = `${calculate} = `;
     document.getElementById("display__current").innerHTML = eval(calculate);
 }
+console.log("gola");
 
 const eraseAll = ()=>{
     calculate="";
@@ -21,3 +22,5 @@ const erase = ()=>{
     document.getElementById("display__log").innerHTML = `${calculate} = `;
     document.getElementById("display__current").innerHTML = calculate;
 }
+
+
