@@ -73,6 +73,7 @@ img {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  overflow: hidden;
 }
 
 .container__buttons {
@@ -109,7 +110,7 @@ img {
   background-color: #ff7708;
 }
 
-.type__special--equal {
+.btn__equal {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -128,7 +129,7 @@ img {
   .type__number, .type__special {
     padding: .5rem;
   }
-  .type__special--equal {
+  .btn__equal {
     padding: 2rem 0;
   }
 }
