@@ -61,14 +61,6 @@
         background-color: rgb(255, 119, 8);
     }
 }
-.btn__equal{
-    // align-self: center;  
-    // grid-column: span 2;
-    // padding: 4rem 0;
-}
-.type__special--cero{
-    // grid-column: span 2;
-}
 
 @media (max-width: 420px){
     #body{
@@ -76,8 +68,5 @@
     }
     .type__number{
         padding: .5rem;
-    }
-    .btn__equal{
-        // padding: 2rem 0;
     }
 }
