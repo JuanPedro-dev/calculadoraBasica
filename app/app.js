@@ -34,7 +34,7 @@ const press = (num)=>{
     displayBot.textContent = calculate
 }
 
-const arrayKey = ["0","1","2","3","4","5","6","7","8","9","/","*","+","-"];
+const arrayKey = ["0","1","2","3","4","5","6","7","8","9","/","*","+","-","(",")"];
 
 
 window.addEventListener("keydown",(event)=>{
